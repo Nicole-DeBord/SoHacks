@@ -1,0 +1,71 @@
+/* 
+This is an external styesheet. This is one of the ways in which CSS can be included with HTML.
+
+To get started, add the followng link below the <title> tags in the head of your HTML file: <link rel="stylesheet" href="css/CSSExercise.css">
+*/
+
+/*
+Before you liven up your HTML, it's necessary to select the element(s) you want to change. 
+
+This can be done by element type, class, or id.
+
+Note that the selector you use for a certain type of element is the same as HTML tag, ex. p { } selects all <p> HTML paragraph elements.
+*/
+
+body {
+	background-color: black;
+	color: white;
+}
+      
+h1 {
+    color: violet;
+    font-size: 1.5em;
+}
+
+h2 {
+    color: orange;
+    font-size: 2em;
+    text-align: right;
+}
+
+h3 {
+    color: yellow;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h4 {
+    color: lime;
+    font-size: 3em;
+    font-family: sans-serif;
+}
+
+p {
+    font-family: cursive;
+
+}
+ 
+#div1 {
+     border: 3px solid blue;
+}
+
+#div2 {
+    border: 3px dashed turquoise;
+}
+      
+#different {
+    color: lime;
+    text-transform: uppercase;
+}
+    
+.list {
+    color: purple;
+}
+  
+.activity {
+    font-size: 1.5em;
+}
+
+a {
+    /*  */
+}
