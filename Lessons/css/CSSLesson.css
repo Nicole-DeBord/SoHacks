@@ -1,0 +1,120 @@
+/*
+This is an external styesheet, one of the ways CSS can be incorporated with HTML.
+
+To get started, add the followng link below the <title></title> tags in the head of your HTML file: <link rel="stylesheet" href="css/CSSLesson.css">
+
+This is a CSS comment, by the way. The syntax is different from HTML comments, but they work the same way.
+*/
+
+/*
+CSS Selectors:
+
+Before you liven up your HTML, it's necessary to target the page elements you want to change. This is done by specifying an element, class, or id. 
+
+Page elements are selected by name. For example, p { } selects ALL <p> HTML paragraph elements.
+
+Classes are assigned withiin HTML tags. They allow the same CSS attributes to be assigned to multiple elements with the same class name.
+
+To create a class, type class="classname" within the opening tag of the elements desired, like this: <p class="classname">
+
+In your stylesheet, .classname { } will be used to assign class properties.
+
+ID's are also assigned within HTML tags, but unlike classes, an ID can only be used once and is intended to target only a single element on a page.
+
+To create a class, type id="idname" within the opening tag of the element desired, like this: <p id="idname">
+
+In your stylesheet, #idname { } will be used to assign class properties.
+*/
+
+/* CSS Properties: 
+
+Properties describe the styling effects CSS makes possible. Many basic CSS properties have descriptive names that are fairly self-explanatory.
+
+Border, color, font-size, text-align, are all properties. The values assigned to them, such as blue, dotted, sans-serif, and center, change the way HTML is displayed.
+
+Check out the CSS below. See if you can figure out how each property and its assigned value(s) change the page's appearance.
+
+It's important to note that there are many different ways to approach CSS. 
+
+Coloring, sizing, positioning (psst, look it up!), and even selecting target elements can be acheived in many more ways than this exercise covers.
+
+The best way to master CSS is through experimenting, so don't be afraid to try out crazy new things!
+*/
+
+
+/*
+Now that you've learned to style HTML elements with CSS, it's time to do it yourself! Try out the following:
+
+Using your knowledge of CSS selectors, target all the paragraphs on your page and change their font.
+
+Create a class to select multiple elements on your page, then change their size and background color.
+
+Create an id to select a single page element, then create a visible border around it.
+
+Try adding a background image to your page. Check here for hints: http://www.w3schools.com/css/css_background.asp
+*/
+
+
+/* Below, check out element selectors in action */
+
+body {
+	background-color: dimgray;
+	color: white;
+}
+      
+h1 {
+    color: violet;
+    font-size: 1.5em;
+}
+
+h2 {
+    color: orange;
+    font-size: 2em;
+    text-align: right;
+}
+
+h3 {
+    color: yellow;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+h4 {
+    color: lime;
+    font-size: 3em;
+    font-family: sans-serif;
+}
+
+p {
+    font-family: cursive;
+
+}
+
+/* Below, check out ID selectors in action */
+ 
+#div1 {
+     border: 3px solid blue;
+}
+
+#div2 {
+    border: 3px dashed turquoise;
+}
+      
+#different {
+    color: lime;
+    text-transform: uppercase;
+}
+    
+/* Below, check out class selectors in action */
+
+.list {
+    color: purple;
+}
+  
+.activity {
+    font-size: 1.5em;
+}
+
+a {
+    /* What element is this, and what the heck can you do with it? Hint: http://www.w3schools.com/css/css_link.asp */
+}
